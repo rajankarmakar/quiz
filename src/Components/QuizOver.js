@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import wow from "../wow.gif";
 
 class QuizOver extends Component {
   getScore = () => {
@@ -28,8 +29,9 @@ class QuizOver extends Component {
               You Score is {this.getScore()} out of {this.props.totalQuestion}
             </h3>
             <br />
+            <img className="mx-auto d-block" alt="fireworks" src={wow} />
             <br />
-            <span className="text-center">
+            <span className="text-center m-auto d-block">
               1. Your first Answer is:{" "}
               <strong
                 className={
@@ -65,12 +67,14 @@ class QuizOver extends Component {
             </span>
             <br />
             <br />
-            <button
-              className="btn btn-success btn-lg"
-              onClick={this.props.onReplay}
-            >
-              Replay
-            </button>
+            <span className="text-center m-auto d-block">
+              <button
+                className="btn btn-success btn-lg"
+                onClick={this.props.onReplay}
+              >
+                Replay
+              </button>
+            </span>
           </div>
         </div>
       </div>

@@ -77,6 +77,7 @@ class App extends Component {
               <QuizOver
                 result={this.state.answer}
                 totalQuestion={this.state.quiz.length}
+                onReplay={this.onReplayHendeler}
               />
             )}
           </div>
@@ -96,6 +97,9 @@ class App extends Component {
         showResult: true
       });
     }
+  };
+  onReplayHendeler = () => {
+    this.setState({ quizCount: 0, showResult: false, answer: [] });
   };
 }
 

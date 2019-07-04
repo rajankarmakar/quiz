@@ -63,6 +63,14 @@ class QuizOver extends Component {
                 {this.props.result[2]}{" "}
               </strong>
             </span>
+            <br />
+            <br />
+            <button
+              className="btn btn-success btn-lg"
+              onClick={this.props.onReplay}
+            >
+              Replay
+            </button>
           </div>
         </div>
       </div>

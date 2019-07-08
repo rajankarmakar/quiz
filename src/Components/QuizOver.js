@@ -5,13 +5,13 @@ class QuizOver extends Component {
   getScore = () => {
     let { result } = this.props;
     let score = 0;
-    if (result[0] === "YES") {
+    if (result[0] === "PHP") {
       score += 1;
     }
-    if (result[1] === "YES") {
+    if (result[1] === "Library") {
       score += 1;
     }
-    if (result[2] === "YES") {
+    if (result[2] === "FaceBook") {
       score += 1;
     }
     console.log(result[0], result[1], result[2]);
@@ -31,11 +31,11 @@ class QuizOver extends Component {
             <br />
             <img className="mx-auto d-block" alt="fireworks" src={wow} />
             <br />
-            <span className="text-center m-auto d-block">
+            <span className="text-center m-auto d-block text-light">
               1. Your first Answer is:{" "}
               <strong
                 className={
-                  this.props.result[0] === "YES"
+                  this.props.result[0] === "PHP"
                     ? "text-success d-inline"
                     : "text-danger d-inline"
                 }
@@ -46,7 +46,7 @@ class QuizOver extends Component {
               2. Your Second Answer is:{" "}
               <strong
                 className={
-                  this.props.result[1] === "YES"
+                  this.props.result[1] === "Library"
                     ? "text-success d-inline"
                     : "text-danger d-inline"
                 }
@@ -57,7 +57,7 @@ class QuizOver extends Component {
               3. Your third Answer is:{" "}
               <strong
                 className={
-                  this.props.result[2] === "YES"
+                  this.props.result[2] === "FaceBook"
                     ? "text-success d-inline"
                     : "text-danger d-inline"
                 }
@@ -65,7 +65,6 @@ class QuizOver extends Component {
                 {this.props.result[2]}{" "}
               </strong>
             </span>
-            <br />
             <br />
             <span className="text-center m-auto d-block">
               <button

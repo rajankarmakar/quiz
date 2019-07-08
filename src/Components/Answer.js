@@ -4,7 +4,7 @@ class Answer extends Component {
   render() {
     return (
       <button
-        className="btn btn-primary btn-lg m-3"
+        className="btn btn-secondary btn-lg m-3"
         onClick={this.props.answerHandeler}
       >
         {this.props.answers}

@@ -1,16 +1,17 @@
 {
-  "main.css": "/quiz/static/css/main.7af80808.chunk.css",
-  "main.js": "/quiz/static/js/main.1895a7c7.chunk.js",
-  "main.js.map": "/quiz/static/js/main.1895a7c7.chunk.js.map",
+  "main.css": "/quiz/static/css/main.52e0fabf.chunk.css",
+  "main.js": "/quiz/static/js/main.cde5c98a.chunk.js",
+  "main.js.map": "/quiz/static/js/main.cde5c98a.chunk.js.map",
   "runtime~main.js": "/quiz/static/js/runtime~main.991ea3ce.js",
   "runtime~main.js.map": "/quiz/static/js/runtime~main.991ea3ce.js.map",
   "static/css/2.1c50dac4.chunk.css": "/quiz/static/css/2.1c50dac4.chunk.css",
   "static/js/2.7e0e95f1.chunk.js": "/quiz/static/js/2.7e0e95f1.chunk.js",
   "static/js/2.7e0e95f1.chunk.js.map": "/quiz/static/js/2.7e0e95f1.chunk.js.map",
   "index.html": "/quiz/index.html",
-  "precache-manifest.74650ae261d99315b5afc5da01c9c106.js": "/quiz/precache-manifest.74650ae261d99315b5afc5da01c9c106.js",
+  "precache-manifest.cb0aebce65dbbb78611d50dd616adf28.js": "/quiz/precache-manifest.cb0aebce65dbbb78611d50dd616adf28.js",
   "service-worker.js": "/quiz/service-worker.js",
   "static/css/2.1c50dac4.chunk.css.map": "/quiz/static/css/2.1c50dac4.chunk.css.map",
-  "static/css/main.7af80808.chunk.css.map": "/quiz/static/css/main.7af80808.chunk.css.map",
-  "static/media/wow.gif": "/quiz/static/media/wow.6edf0c02.gif"
+  "static/css/main.52e0fabf.chunk.css.map": "/quiz/static/css/main.52e0fabf.chunk.css.map",
+  "static/media/index.css": "/quiz/static/media/bg-quiz.07ac5cee.jpg",
+  "static/media/wow.gif": "/quiz/static/media/wow.cb4b39d1.gif"
 }
